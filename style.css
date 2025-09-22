@@ -115,3 +115,12 @@ body {
   background: #e64a19;   /* darker on hover */
   transform: scale(1.05);
 }
+.profile-img {
+  width: 120px;        /* size of logo */
+  height: 120px;       /* make it square */
+  border-radius: 50%;  /* circular */
+  object-fit: cover;   /* crop inside circle */
+  border: 3px solid white;  /* thin white border */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* subtle shadow */
+  margin-bottom: 15px; /* spacing below */
+}
