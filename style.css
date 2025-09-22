@@ -79,3 +79,12 @@ h1 {
 .youtube-btn:hover {
   background: #cc0000;
 }
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff0000, #ff6600, #000000);
+  /* red → orange → black gradient */
+}
